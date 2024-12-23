@@ -1,10 +1,10 @@
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 
-task_name=""
+task_name="irm_model"
 test_data_type="tool_code"
 
 data_split="0,0,10"
-data_path=""
+data_path="../../data/irm.json"
 echo $data_path
 
 temperature=0.7
@@ -19,7 +19,7 @@ critic_zero_stage=3
 actor_learning_rate=2e-7
 critic_learning_rate=1e-7
 
-output_base="./models/${task_name}/"
+output_base="../../save_models/${task_name}/"
 log_base=./${task_name}/
 mkdir $log_base
 
@@ -28,8 +28,8 @@ per_device_training_batch_size=1
 gradient_accumulation_steps=1
 
 # base model
-actor_model_name_or_path=""
-critic_model_name_or_path=""
+actor_model_name_or_path="../../save_model/pkt_model"
+critic_model_name_or_path="../../save_model/pkt_model"
 
 output_path=${output_base}${task_name}
 data_output_path=${output_path}/data_files
