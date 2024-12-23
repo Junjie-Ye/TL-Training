@@ -74,7 +74,7 @@ To assess the individual contributions of the three components in our design tha
     bash RL_run.sh
     ```
 
-After run these codes, the model will be found in `../../save_models/irm_model`
+After run these codes, the model will be found in `../../save_models/irm_model`.
 
 ## Inference
 
