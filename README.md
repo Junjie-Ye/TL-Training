@@ -78,7 +78,7 @@ After run these codes, the model will be found in `../../save_models/irm_model`.
 
 ## Inference
 
-If you want to use the model (TL-CodeLLaMA-2) for inference, please follow the format below:
+If you want to use the model (TL-CodeLLaMA-2) for inference, please follow the data format:
 
 ```json
 [
