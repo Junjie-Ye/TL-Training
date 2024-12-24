@@ -20,7 +20,7 @@ Large language models (LLMs) achieve remarkable advancements by leveraging tools
 
 ## What's New
 
-- **[2024.12.23]** TL-CodeLLaMA-2 will be released.
+- **[2024.12.23]** TL-CodeLLaMA-2 can be download from [huggingface](https://huggingface.co/Junjie-Ye/TL-CodeLLaMA-2).
 - **[2024.12.23]** Release the data and code for TL-Training.
 - **[2024.12.23]** Paper available on [Arxiv](https://www.arxiv.org/abs/2412.15495).
 
@@ -74,11 +74,11 @@ To assess the individual contributions of the three components in our design tha
     bash RL_run.sh
     ```
 
-After run these codes, the model will be found in `../../save_models/irm_model`.
+After run these codes, the model will be found in `../../save_models/irm_model`
 
 ## Inference
 
-If you want to use the model (TL-CodeLLaMA-2) for inference, please follow the data format:
+If you want to use the model (TL-CodeLLaMA-2) for inference, please follow the format below:
 
 ```json
 [
