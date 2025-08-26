@@ -1,5 +1,5 @@
-# TL-Training
-## TL-Training: A Task-Feature-Based Framework for Training Large Language Models in Tool Use
+# [EMNLP 2025] TL-Training
+## [EMNLP 2025] TL-Training: A Task-Feature-Based Framework for Training Large Language Models in Tool Use
 
 > Data for paper [TL-Training: A Task-Feature-Based Framework for Training Large Language Models in Tool Use](https://www.arxiv.org/abs/2412.15495)
 
@@ -20,6 +20,7 @@ Large language models (LLMs) achieve remarkable advancements by leveraging tools
 
 ## What's New
 
+- **{2025.08.21]** The paper has been accepted by EMNLP 2025.
 - **[2024.12.23]** TL-CodeLLaMA-2 can be download from [huggingface](https://huggingface.co/Junjie-Ye/TL-CodeLLaMA-2).
 - **[2024.12.23]** Release the data and code for TL-Training.
 - **[2024.12.23]** Paper available on [Arxiv](https://www.arxiv.org/abs/2412.15495).
