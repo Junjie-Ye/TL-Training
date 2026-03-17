@@ -113,13 +113,33 @@ The chat template is:
 If you find this project useful in your research, please cite:
 
 ```bibtex
-@misc{TL-Training,
-      title={TL-Training: A Task-Feature-Based Framework for Training Large Language Models in Tool Use}, 
-      author={Junjie Ye and Yilong Wu and Sixian Li and Yuming Yang and Tao Gui and Qi Zhang and Xuanjing Huang and Peng Wang and Zhongchao Shi and Jianping Fan and Zhengyin Du},
-      year={2024},
-      eprint={2412.15495},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2412.15495}, 
+@inproceedings{TL-Training,
+  author       = {Junjie Ye and
+                  Yilong Wu and
+                  Sixian Li and
+                  Yuming Yang and
+                  Zhiheng Xi and
+                  Tao Gui and
+                  Qi Zhang and
+                  Xuanjing Huang and
+                  Peng Wang and
+                  Zhongchao Shi and
+                  Jianping Fan and
+                  Zhengyin Du},
+  editor       = {Christos Christodoulopoulos and
+                  Tanmoy Chakraborty and
+                  Carolyn Rose and
+                  Violet Peng},
+  title        = {TL-Training: {A} Task-Feature-Based Framework for Training Large Language
+                  Models in Tool Use},
+  booktitle    = {Findings of the Association for Computational Linguistics: {EMNLP}
+                  2025, Suzhou, China, November 4-9, 2025},
+  pages        = {239--258},
+  publisher    = {Association for Computational Linguistics},
+  year         = {2025},
+  url          = {https://aclanthology.org/2025.findings-emnlp.15/},
+  timestamp    = {Fri, 20 Feb 2026 08:07:46 +0100},
+  biburl       = {https://dblp.org/rec/conf/emnlp/YeWLYXGZHWSFD25.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
